@@ -8,7 +8,7 @@ import React from 'react';
 // import Props from './components/demoProps/Props'
 // import BaiTapTruyenFunction from './components/demoProps/BaiTapTruyenFun/BaiTapTruyenFunction'
 // import Exercise from './components/ExerciseTest/Exercise';
-// import ExerciseCart from './components/ExerciseCart/ExerciseCart';
+import ExerciseCart from './components/ExerciseCart/ExerciseCart';
 
 
 
@@ -25,7 +25,7 @@ function App() {
         {/* <Props abc={'Huy Dep Trai'}/> */}
         {/* <BaiTapTruyenFunction /> */}
         {/* <Exercise /> */}
-        {/* <ExerciseCart /> */}
+        <ExerciseCart />
     </div>
   );
 }
