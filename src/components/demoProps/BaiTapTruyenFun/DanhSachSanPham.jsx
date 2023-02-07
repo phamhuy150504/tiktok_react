@@ -1,18 +1,17 @@
 import React, { Component } from 'react'
-import phoneData from '../../../data/phoneData.json'
 import SanPham from './SanPham'
 
-
 export default class DanhSachSanPham extends Component {
+    phoneData = this.props.phoneData
     constructor(props) {
         super(props);
         this.state = {
-            spChiTiet: phoneData[1]
+            spChiTiet: this.phoneData[1]
         }
     }
 
     renderProduct = () => {
-        return phoneData.map((phone, index) => {
+        return this.phoneData.map((phone, index) => {
             return (
                <SanPham sanPham={phone} key={index} seeDetail={this.xemChiTiet} />
             )

@@ -15,6 +15,7 @@ export default class Product extends Component {
               <p className='card-text'>{manHinh}</p>
             </div>
           </div> 
+          
         </div>
     )
   }
